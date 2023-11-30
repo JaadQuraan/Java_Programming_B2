@@ -14,6 +14,8 @@ public class FirstTry {
             System.out.println(word.charAt(4));
         } catch (Exception e){
             System.out.println("Exception Message: Exception Happened. Come back and check");
+           // e.printStackTrace(); //Prints the error message
+           System.out.println("e.getMessage() = " + e.getMessage());
         }
        // Scanner input = new Scanner(System.in);
 
