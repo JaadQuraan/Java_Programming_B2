@@ -19,7 +19,7 @@ public class IncrementExample2 {
         System.out.println(++age + ++age + 2); //age = 25
 
         //                   25      26   2
-        System.out.println(++age + age++ +2);
+        System.out.println(age++ + age++ +2);
         System.out.println(age);
     }
 }
